@@ -1,0 +1,7 @@
+material design son las metricas de diseño creadas por goodle.
+se refieren a materiales de impresion, y que se manejen a partir de capas con efectos, luces y sombras.
+uno de los principios es que hay que tener profundidad. esto en android se maneja con elevaciones en el eje -z. un ejemplo son los cardview y los botones.
+los elementos se manejan a base de capas, todas con elevaciones para proyectar elementos en capas.
+material design quiere dar efectos reales para que las interfaces sean lo mas intuitivas posibles.
+todas las animaciones tienen que ser coherentes y de acuerdo a las leyes de la fisica.
+

@@ -1,0 +1,5 @@
+la principal diferencia es como se comunican.
+mvc si pulsamos boton la informacion va al controller que llama a una funcion que se comunica con el modelo para pedir la informacion que necesite y el controller actualizaria la vista
+en mvvm el presenter se comunica con un observable, y con el live data cuando se hace un cambio llama al callback.
+diferencia entre presenter y view model es que la comunicacion se realiza con data binding, que se usa patrones observables que en cuanto se realiza un cambio la vista se actualiza.
+mvp la vista es el activity, el presenter es una clase propia que se comunica con el modelo que son el resto de clases. convertimos activity en vista y el resto de cosas que no pertencen a la vista se las delegamos en el presentrer.

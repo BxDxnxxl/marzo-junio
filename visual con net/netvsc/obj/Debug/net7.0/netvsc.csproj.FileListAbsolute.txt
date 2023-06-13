@@ -1,0 +1,5 @@
+F:\netvsc\obj\Debug\net7.0\netvsc.csproj.AssemblyReference.cache
+F:\netvsc\obj\Debug\net7.0\netvsc.GeneratedMSBuildEditorConfig.editorconfig
+F:\netvsc\obj\Debug\net7.0\netvsc.AssemblyInfoInputs.cache
+F:\netvsc\obj\Debug\net7.0\netvsc.AssemblyInfo.cs
+F:\netvsc\obj\Debug\net7.0\netvsc.csproj.CoreCompileInputs.cache

@@ -1,0 +1,25 @@
+patron mvc: 
+modelo vista controlador.
+Modelo: representa la logica de la aplicacion, es el origen de la informacion 
+Las Vistas son las pantallas, estas son la representacion visual del modelo 
+El Controlador actua como el intermediador, recibir interacciones por parte de las vistas y cambiar el modelo.
+El problema de este patron es que los elementos que la componen son tan acoplados entre ellos que hace dificil mantener la separacion entre ellos que deberia existir.
+
+patron mvp: 
+modelo vista presentador
+El Presentador: lidia con las interacciones de la vista, aplica las interacciones de la vista en el modelo, y usa el modelo como gestor de estados para actualizar la vista.
+Se beneficia de la mantenibilidad agregada y es mas ordenada, sin embargo el presentador tiene mucho trabajo con vistas muy complejas y termna siendo una clase muy grande no tan facil de manejar.
+
+patron mvvm:
+modelo vista vistamodelo.
+El vistamodelo: se enlaza con la vista mediante el binding de manera desacoplada, mediante un enlace de dos direcciones. Se encarga de interactuar y exponer el modelo para que la vista consuma sus datos
+la vista puede hacer cambios en el modelo mediante el vistamodelo.
+El problema depende mucho del vistamodelo porque necesita conocer las propiedades que nos provee, otro problema es que el vistamodelo hace un flujo de datos two way con todo lo que interactua volviendo una aplicacion compleja.
+
+patron flux:
+store: se encarga de almacenar el estado de la aplicacion, y el unico que maneja los cambios y actualizaciones de la vista, llamado "single source of true".
+Dispatcher: para modificar el estado de la aplicacion, que nos permite tener mas de un store en la aplicacion. Este elemento se encarga procesar las acciones y enviarlas al store. los cambios en el estado son a traves de la creacion de acciones, la vista genera una accion que llega al dispatcher que la manda al store y altera el estado.
+de esta manera cualquier servicio externo altera el estado lanzando una accion. Esto genera un solo flujo unidireccional.
+
+patron redux:
+el store procesa los cambios a traves de funciones puras, que nos permiten asegurarnos que los cambios en los estados son predecibles

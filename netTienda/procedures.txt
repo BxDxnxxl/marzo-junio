@@ -1,0 +1,49 @@
+DELIMITER //
+
+CREATE PROCEDURE InsertarProducto(
+  IN p_precio double(7, 2),
+  IN p_descripcion VARCHAR(250)
+)
+BEGIN
+  INSERT INTO productos (precio, descripcion)
+  VALUES (p_precio, p_descripcion);
+END //
+
+DELIMITER ;
+
+DELIMITER //
+
+CREATE PROCEDURE EditarProducto(
+  IN p_id INT,
+  IN p_precio double(7, 2),
+  IN p_descripcion VARCHAR(250)
+)
+BEGIN
+  UPDATE productos
+  SET precio = p_precio,
+      descripcion = p_descripcion
+  WHERE id = p_id;
+END //
+
+DELIMITER ;
+
+DELIMITER //
+
+CREATE PROCEDURE VerProductos()
+BEGIN
+  SELECT * FROM productos;
+END //
+
+DELIMITER ;
+
+DELIMITER //
+
+CREATE PROCEDURE EliminarProducto(
+  IN p_id INT
+)
+BEGIN
+  DELETE FROM productos
+  WHERE id = p_id;
+END //
+
+DELIMITER ;

@@ -1,0 +1,17 @@
+F:\getrequest\bin\Debug\net7.0\getrequest.exe
+F:\getrequest\bin\Debug\net7.0\getrequest.deps.json
+F:\getrequest\bin\Debug\net7.0\getrequest.runtimeconfig.json
+F:\getrequest\bin\Debug\net7.0\getrequest.dll
+F:\getrequest\bin\Debug\net7.0\getrequest.pdb
+F:\getrequest\obj\Debug\net7.0\getrequest.csproj.AssemblyReference.cache
+F:\getrequest\obj\Debug\net7.0\getrequest.GeneratedMSBuildEditorConfig.editorconfig
+F:\getrequest\obj\Debug\net7.0\getrequest.AssemblyInfoInputs.cache
+F:\getrequest\obj\Debug\net7.0\getrequest.AssemblyInfo.cs
+F:\getrequest\obj\Debug\net7.0\getrequest.csproj.CoreCompileInputs.cache
+F:\getrequest\obj\Debug\net7.0\getrequest.dll
+F:\getrequest\obj\Debug\net7.0\refint\getrequest.dll
+F:\getrequest\obj\Debug\net7.0\getrequest.pdb
+F:\getrequest\obj\Debug\net7.0\getrequest.genruntimeconfig.cache
+F:\getrequest\obj\Debug\net7.0\ref\getrequest.dll
+F:\getrequest\bin\Debug\net7.0\Newtonsoft.Json.dll
+F:\getrequest\obj\Debug\net7.0\getrequest.csproj.CopyComplete
